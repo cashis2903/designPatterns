@@ -1,7 +1,7 @@
 <?php
 
 require('ITax.php');
-require('TaxGB');
+require('TaxGB.php');
 require('TaxPL.php');
 
 class Main
