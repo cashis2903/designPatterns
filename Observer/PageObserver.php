@@ -7,6 +7,6 @@ class PageObserver implements Observer {
     public function update($change)
     {
         $this->temp = $change;
-        echo ' | Zmiana prognozy na '. $this->temp. ' stopni C <== Page ==>';
+        echo ' | Change temp '. $this->temp. '  C <== Page ==>';
     }
 }

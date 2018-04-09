@@ -8,6 +8,6 @@ class TelevisionObserver implements Observer {
     public function update($change)
     {
         $this->temp = $change;
-        echo '| Zmiana prognozy na '. $this->temp. ' stopni C <== Television ==>' ;
+        echo '| Change temp '. $this->temp. '  C <== Television ==>' ;
     }
 }
