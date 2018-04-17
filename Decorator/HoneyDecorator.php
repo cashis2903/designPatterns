@@ -3,7 +3,7 @@
 require_once 'DrinkIngridientDecorator.php';
 
 
-class Honey extends DrinkIngridientDecorator {
+class HoneyDecorator extends DrinkIngridientDecorator {
 
     private $drink;
 
