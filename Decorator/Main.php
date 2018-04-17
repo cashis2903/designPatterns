@@ -3,7 +3,6 @@
 require 'Drink.php';
 require 'DrinkIngridientDecorator.php';
 require 'HoneyDecorator.php';
-require 'Smoothie.php';
 
 
 $drink = new Drink('Smoothie', 4);
