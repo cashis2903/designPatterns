@@ -5,10 +5,9 @@ class Singleton
     private static $instance;
     private $test;
 
-    private function __construct()
-    {
+    private function __construct(){}
 
-    }
+    private function __clone(){} /// avoid cloning instance of Singleton
 
     public static function getInstance()
     {
