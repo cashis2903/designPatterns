@@ -1,6 +1,6 @@
 <?php
 
-include 'Book.php';
+require_once 'Book.php';
 
 class BookAdapter
 {
